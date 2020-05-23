@@ -60,3 +60,4 @@ if __name__ == "__main__":
     git_add()
     git_status()
     git_commit()
+    git_status()
