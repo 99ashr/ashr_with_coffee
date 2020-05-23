@@ -46,7 +46,7 @@ def git_status():
 def git_commit():
     print(emoji.emojize("Ready To Commit Your MESS...?:expressionless_face:"))
     # os.system("git commit -m {}".format(msg))
-    os.system("git commit")
+    os.system("git commit -m test_msg")
 
 
 def my_git_cmd():
