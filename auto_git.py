@@ -33,7 +33,7 @@ def current_dir():
 
 
 def creating_md():
-    repo_name = readfun()
+    # repo_name = readfun()
     print("Creating README File for you!")
     print(emoji.emojize("\nPlease Wait...:slightly_smiling_face:"))
     os.system("echo '# {}'>README.md".format(repo_name))
@@ -77,7 +77,7 @@ remote = "git remote add origin"
 
 
 def connect_remote():
-    repo_name = readfun()
+    # repo_name = readfun()
     print(emoji.emojize("Connecting to your remote directory...:lying_face:"))
     os.system("{} {}{}.git".format(remote, user_repo_link, repo_name))
 
@@ -90,10 +90,10 @@ if __name__ == "__main__":
     current_dir()
     if repo_name == "":
         try:
-            readfun()
+            repo_name = readfun()
         except FileNotFoundError:
             print("please enter the name manually!")
-    if repo_name != "":
+    else:
         writefun()
     creating_md()
     git_init()
