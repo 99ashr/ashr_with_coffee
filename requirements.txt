@@ -1,4 +1,3 @@
-pyinstaller
 os
 pickle
 emoji

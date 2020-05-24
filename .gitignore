@@ -2,3 +2,5 @@
 ./build
 auto_git.spec
 git.ipynb
+myRepos.txt
+./trash/*
