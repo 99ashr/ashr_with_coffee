@@ -1,2 +1,4 @@
 trash/
-.myRepos.txt
+.myRepos
+*.txt
+!requirements.txt
