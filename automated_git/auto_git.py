@@ -83,7 +83,7 @@ def connect_remote():
 
 
 def git_push():
-    os.system("git push origin master")
+    os.system("git push")
 
 
 if __name__ == "__main__":
