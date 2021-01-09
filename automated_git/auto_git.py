@@ -110,7 +110,7 @@ def connect_remote():
 
 def git_push():
     talk("We're good to go.")
-    os.system("git push")
+    os.system("git push origin master")
 
 
 if __name__ == "__main__":
