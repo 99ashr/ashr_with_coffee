@@ -6,7 +6,7 @@
 
 ssh-keygen -t rsa -b 4096 -C "your@example.com".
 eval "$(ssh-agent -s)"
-ssh-add ~/path/to/the/.ssh/file/id_rsa]
+ssh-add ~/path/to/the/.ssh/file/id_rsa
 
 ## Configure key on GitHub
 
