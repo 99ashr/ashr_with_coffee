@@ -1,3 +1,4 @@
 .myRepos
 *.txt
-!requirements.txt
+v_ashr_with_coffee
+**v_ashr_with_coffee
