@@ -2,3 +2,7 @@
 *.txt
 v_ashr_with_coffee
 **v_ashr_with_coffee
+Whatsapp_Python
+**Whatsapp_Python
+*.env
+.env
